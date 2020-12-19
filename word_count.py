@@ -66,10 +66,10 @@ def print_top_n(s, d, n):
     
 
 # set the logging to debug level
-#logging.basicConfig(level=logging.DEBUG)
+logging.basicConfig(level=logging.DEBUG, format="%(message)s")
 
 # set the logging to ERROR level
-logging.basicConfig(level=logging.ERROR)
+#logging.basicConfig(level=logging.ERROR, format="%(message)s")
 
 d = my_func("This is a book.",
     "That is a chicken.",
